@@ -24,7 +24,8 @@ To actually commit these changes use
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
 PUSHING CHANGES
-Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, EXECUTE
+Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository,
+EXECUTE
 --> git push origin master
 Change master to whatever branch you want to push your changes to.
 If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
@@ -70,7 +71,7 @@ Or maybe you want to see an ASCII art tree of all the branches, decorated with t
 See only which files have changed:
 --> git log --name-status
 These are just a few of the possible parameters you can use. For more, see git log --help
-replace local changes
+REPLACE LOCAL CHANGES
 In case you did something wrong, which for sure never happens ;), you can replace local changes using the command
 --> git checkout -- <filename>
 this replaces the changes in your working tree with the last content in HEAD. Changes already added to the index, as well as new files, will be kept.
